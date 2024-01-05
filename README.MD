@@ -1,5 +1,8 @@
 # Bad Apple, but Android Quick Setting Tile
 
+## Preview
+[[!Preview Image](https://img.youtube.com/vi/yGhvo-Aefz8/0.jpg)](https://www.youtube.com/watch?v=yGhvo-Aefz8)
+
 ## Minimum Requirements
 - Android 13 
   > Preferably pure/lightly modified AOSP or Android One, not heavily modified OEM ROM such as OneUI 
