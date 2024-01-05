@@ -22,3 +22,6 @@ preview/
 *.bad
 *.mp4
 *.aac
+
+bin/
+**/build/

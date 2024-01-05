@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QS Bad Apple</string>
+    <string name="tile_00">Bad Apple Display Tile 0,0</string>
+    <string name="tile_10">Bad Apple Display Tile 1,0</string>
+    <string name="tile_20">Bad Apple Display Tile 2,0</string>
+    <string name="tile_30">Bad Apple Display Tile 3,0</string>
+    <string name="tile_01">Bad Apple Display Tile 0,1</string>
+    <string name="tile_11">Bad Apple Display Tile 1,1</string>
+    <string name="tile_21">Bad Apple Display Tile 2,1</string>
+    <string name="tile_31">Bad Apple Display Tile 3,1</string>
+    <string name="tile_02">Bad Apple Display Tile 0,2</string>
+    <string name="tile_12">Bad Apple Display Tile 1,2</string>
+    <string name="tile_22">Bad Apple Display Tile 2,2</string>
+    <string name="tile_32">Bad Apple Display Tile 3,2</string>
+    <string name="tile_03">Bad Apple Display Tile 0,3</string>
+    <string name="tile_13">Bad Apple Display Tile 1,3</string>
+    <string name="tile_23">Bad Apple Display Tile 2,3</string>
+    <string name="tile_33">Bad Apple Display Tile 3,3</string>
+    <string name="padding_tile">Padding Tile</string>
+</resources>

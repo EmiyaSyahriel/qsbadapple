@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".App"
+        android:theme="@android:style/Theme.DeviceDefault.DayNight"
+        tools:ignore="MissingApplicationIcon">
+
+        <activity
+            android:name=".ArrangerActivity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- region Padding -->
+        <service android:name=".PaddingService0" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService1" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService2" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService3" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService4" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService5" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService6" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService7" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".PaddingService8" android:label="@string/padding_tile" android:icon="@drawable/ic_player" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <!-- endregion Padding -->
+
+        <!-- region Display -->
+        <service android:name=".DisplayTile00" android:label="@string/tile_00" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile10" android:label="@string/tile_10" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile20" android:label="@string/tile_20" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile30" android:label="@string/tile_30" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+
+        <service android:name=".DisplayTile01" android:label="@string/tile_01" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile11" android:label="@string/tile_11" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile21" android:label="@string/tile_21" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile31" android:label="@string/tile_31" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+
+        <service android:name=".DisplayTile02" android:label="@string/tile_02" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile12" android:label="@string/tile_12" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile22" android:label="@string/tile_22" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile32" android:label="@string/tile_32" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+
+        <service android:name=".DisplayTile03" android:label="@string/tile_03" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile13" android:label="@string/tile_13" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile23" android:label="@string/tile_23" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <service android:name=".DisplayTile33" android:label="@string/tile_33" android:icon="@drawable/ic_badapple" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" android:exported="true"><intent-filter><action android:name="android.service.quicksettings.action.QS_TILE"/></intent-filter></service>
+        <!-- endregion -->
+    </application>
+
+</manifest>
